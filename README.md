@@ -1,5 +1,10 @@
 # Welcome to UK ???
 
+```bash
+# connect to db
+mariadb -h 127.0.0.1 -u root -P 3306 -p -D shop
+```
+
 ## Getting started
 ### Node.js 14
 
