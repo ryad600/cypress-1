@@ -38,4 +38,7 @@ describe('home/landing page', () => {
   it('can delete a product', () => {
     // ? how can we check that we have deleted the product successfully
   })
+
+  it('shows the login button if we are logged out')
+  it('shows the logout button if we are logged in')
 })
