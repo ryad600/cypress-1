@@ -1,3 +1,11 @@
+# Install node (if required)
+```bash
+cd ~
+curl -sL https://deb.nodesource.com/setup_18.x -o nodesource_setup.sh
+sudo bash nodesource_setup.sh
+sudo apt install nodejs
+```
+
 # GETTING STARTED
 1. clone the repo
 2. run `docker-compose up`
