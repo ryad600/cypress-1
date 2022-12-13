@@ -1,3 +1,12 @@
+# GETTING STARTED
+1. clone the repo
+2. run `docker-compose up`
+3. `cd cypress` 
+4. `yarn run cypress open`
+
+
+
+
 # Welcome to UK ???
 
 ```bash
