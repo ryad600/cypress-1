@@ -21,7 +21,7 @@ describe('home/landing page', () => {
     cy.contains('Frisches Brot')
   })
 
-  it('creates a new product', () => {
+  it.only('creates a new product', () => {
     cy.contains('Products').click()
     cy.contains('Create New Product').click()
     cy.get('input#name-field').type('some new product')
@@ -31,6 +31,9 @@ describe('home/landing page', () => {
     cy.contains('Save and Close').click()
   })
 
+  // ! HOMEWORK BELOW:
+  // Please complete the following tests by Friday so we can look at the solutions together
+  
   it('can update a product', () => {
     // ? how can we check that we have updated the product successfully?
   })
@@ -39,6 +42,13 @@ describe('home/landing page', () => {
     // ? how can we check that we have deleted the product successfully
   })
 
+  it('lists the categories', () => {})
+  it('can create a category', () => {})
+  it('can update a category', () => {})
+  it('can delete a category', () => {})
+
+
+  // For people who want to practice even more
   it('shows the login button if we are logged out')
   it('shows the logout button if we are logged in')
 })
