@@ -74,9 +74,3 @@ describe('shop app if signed sign', () => {
   it('can update a category', () => {})
   it('can delete a category', () => {})
 })
-
-describe('sign in and sign out', () => {
-  // For people who want to practice even more
-  it('shows the login button if we are logged out')
-  it('shows the logout button if we are logged in')
-})
